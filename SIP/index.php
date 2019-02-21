@@ -1,5 +1,7 @@
 <?php
 
+// Test On Github
+
     if (file_exists("instalasi/index.php")) {
 	session_start();
 	$_SESSION['pertama'] = pertama;
