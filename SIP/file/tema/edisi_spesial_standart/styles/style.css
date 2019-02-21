@@ -1,0 +1,374 @@
+body{
+    background: url(img/background1.jpg) no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+	font-size:14px;           
+}
+/* wrapper */
+#wrapper{
+    background:rgba(255,255,255, 0.8);     
+}
+/* wrapper */
+.hver a:hover{
+	text-decoration:none;
+	color: #000;
+}
+/* menu */
+  #menu{
+    background:#000;
+    color: #000;
+  }
+   
+  #menu ul li a:hover{
+    background:rgba(255,255,255, 0.5);
+    color: #000;
+  }
+  #menu ul li a{
+    color: #fff;
+    text-align: justify;
+  }
+   
+  #menu ul li ul{
+    color: #000;
+    background:#000;    
+  }   
+  
+/* menu */
+
+/* header */
+  #header{    
+    top: 50px;
+    position: relative;
+  }
+/* header */
+
+/* content */
+#content{
+    position: relative;
+    top: 50px;
+  }
+/* content */
+
+/* content */
+#propil{
+    position: relative;
+    top: 50px;
+	padding-left:15px;
+  }
+/* content */
+        
+/* footer */
+#footer{
+    position: relative;
+    background: #000;
+    padding: 20px 0 10px 0;
+}                 
+#footer a{
+    color: #FFF;
+}
+/* footer */
+
+/*kelendar */
+#calendar {
+	width: 96%;
+	padding: 0;
+	margin: 2%;
+	border-left: 1px solid #A2ADBC;
+	font: normal 12px/20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #616B76;
+	text-align: center;
+	background-color: #fff;
+}
+
+.nav, .nav a {
+	font: bold 18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;	
+	text-align: center;
+	text-decoration: none;
+}	
+
+
+caption.kalendar {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	background: #A2ADBC;
+	color: #fff;	 
+	font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+th.kalendar {
+	font: bold 11px/20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #616B76;
+	background: #D9E2E1;
+	border-right: 1px solid #A2ADBC;
+	border-bottom: 1px solid #A2ADBC;
+	border-top: 1px solid #A2ADBC;
+}
+
+.today, td.today a, td.today a:link, td.today a:visited {
+	color: #F6F4DA;
+	font-weight: bold;
+	background: #DF9496;
+}
+
+td.kalendar {
+	border-right: 1px solid #A2ADBC;
+	border-bottom: 1px solid #A2ADBC;
+	width: auto;
+	height: auto;
+	text-align: center;
+/*	background: url(../images/bg_calendar.jpg) no-repeat right bottom; */
+}
+
+td.kalendar a {
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+td.kalendar a:link, td a:visited {	
+	color: #608194;
+/*	background: url(../images/bg_calendar.jpg) no-repeat; */
+}
+
+td.kalendar a:hover, td a:active {
+	color: #6aa3ae;
+/*	background: url(../images/bg_calendar.jpg) no-repeat right top; */
+}
+
+/* Jendela Pop Up Kalendar */
+#popupkalendar {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+.windowkalendar {
+	width: 40%;
+	height: auto;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+}
+.windowkalendar h2 {
+	margin: 30px 0 0 0;
+}
+/* Button Close */
+.close-buttonkalendar {
+	width: 3.5%;
+	height: auto;
+	line-height: 23px;
+	background: #000;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;	
+}
+
+/* Memunculkan Jendela Pop Up*/
+#popupkalendar:target {
+	visibility: visible;
+}
+
+/*	popup */
+#popup {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		background: rgba(0,0,0,.7);
+		top: 0;
+		left: 0;
+		z-index: 10009;
+		visibility: hidden;
+	}
+
+	.window {
+		width: 30%;
+		height: 50%;
+		background: transparent;
+		border-radius: 10px;
+		position: relative;
+		padding: 1px;
+		text-align: justify;
+		margin: 15% auto;
+        padding: 0 20px 0 20px;
+        text-align: center;
+	}
+
+	.window h2 {
+		margin: 30px 0 0 0;
+	}
+
+	.close-button {
+		width: 6%;
+		height: 8.5%;
+		line-height: 23px;
+		display: block;
+		text-align: center;
+		color: #000;
+		text-decoration: none;
+		position: absolute;
+		top:45px;
+		right: 15px;
+	}
+.close {
+		width: 6%;
+		height: 8.5%;
+		line-height: 23px;
+		border: 1px solid #fff;
+		display: block;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		position: absolute;
+		top:0px;
+	}
+	#popup:target {
+		visibility: visible;
+	}
+/* END RELOAD POP UP WEBSITE*/
+    #panel-heading{
+		background:#14BCE6;
+	}
+	#panel-heading h3{
+		text-align:center;
+		color:#fff;
+	}
+/*----------------------------------------responsive window popup*/
+@media screen and (max-width : 670px){
+    .window{
+        width:100%;
+        top: 90px;
+		margin:0;
+    }
+	.close-button {
+		width: 10%;
+	    height: 12%;
+		right:20px;
+		margin-top:5px;
+	}
+	#propil{
+		padding-right:2px;
+		padding-left:2px;
+	}
+}
+/*----------------------------------------responsive window popup*/
+
+/*----------------------------------------responsive window popup kalendar*/
+@media screen and (max-width : 670px){
+    .windowkalendar{
+		width: 70%;
+		height: 50%;
+		background: #fff;
+		border-radius: 10px;
+		position: relative;
+		padding: 10px;
+		text-align: center;
+		margin: 15% auto;
+    }
+	.close-buttonkalendar {
+		width: 8.5%;
+		height: 9.5%;
+		line-height: 23px;
+		background: #000;
+		border-radius: 50%;
+		border: 3px solid #fff;
+		display: block;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		position: absolute;
+		top: 3px;
+		right: 10px;	
+	}
+	.imageHolder { position: relative; width: 100%; height:150px; }
+	.imageHolder  img{ width: 100%; height: 150px; } 
+	.captionn  p{
+		font-size:13px;
+	}
+	.captionn  h3{
+		font-size:12px;
+		font-weight: bold;
+	}
+		
+}
+/*----------------------------------------responsive window popup kalendar*/
+.imageHolder { position: relative; width: 100%; } 
+.imageHolder  img{ width: 100%;  } 
+.imageHolder .captionn { background: #ddd none repeat scroll 0 0;
+    bottom: 0;
+    color: #ffffff;
+    font-weight: bold;
+    height: ;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    text-align: start;
+    width: 100%; } 
+.captionn p { 
+    opacity: 1;
+    }
+.pg-normal {
+	padding: 3px 5px 3px 5px;
+	margin: 5px 1.5px 0 1.5px;
+	border: 1px solid #dcdcdc;
+	background: url(img/white.jpg) repeat left center;
+	text-shadow: 0px 1px #fff;
+	color: #006cff;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.pg-selected {
+	padding: 3px 5px 3px 5px;
+	margin: 5px 1.5px 0 1.5px;
+	border: 1px solid #5b5b5b; color: #5b5b5b;
+	background: url(img/white.jpg) repeat left center;
+	text-shadow: 0px 1px #fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;	
+}
+/*Class atas tabel, bahwah tabel atau bisa juga dipakai untuk kolom penjang*/
+	.atastabel {
+		width: 98%;
+		margin: 20px 10px 0 10px;
+		float: left;
+	}
+.garis{
+	font-size:14px;
+}
+@font-face{
+font-family:orange;
+src: url(orange.ttf);
+}
+#Back-to-top {
+    text-align: center;
+    z-index: 9999;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    opacity: 0.7; 
+    }
+#Back-to-top:hover {
+    opacity: 1;
+    }

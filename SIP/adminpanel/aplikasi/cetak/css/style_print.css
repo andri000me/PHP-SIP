@@ -1,0 +1,49 @@
+/*
+By Herreman David
+http://www.free-css-templates.com
+StyleSheet for BinaryNews Template
+*/
+
+body {
+ background-color: #FFFFFF;
+ color: #000000;
+ padding: 30; margin-top: 0px; font: 0.8em Arial, sans-serif; line-height: 1.7em;
+}
+
+
+
+
+.content { 
+    background: #FFF; 
+	margin: 0 auto;
+	padding: 0px;
+	width: 886px;
+	color: #000;
+}
+
+
+
+
+/* For IE... */
+* html .sd_right {
+    clear:both;
+    background-color: #FFF;
+	float: right;
+	color: #000;
+	margin: 0 40px 0 0;
+	padding: 0px 0px 0 15px;
+	width: 170px;
+	border-left: 1px dashed #ccc;
+}	
+
+
+.text_padding {
+	padding: 15px 0 0 0;
+}
+
+.table2 {border: 1px solid black;border-collapse:collapse}
+.table2 td {background: #fff 0 -1600px;font-size:12px;padding:1px;border: 1px solid black}
+.table2 th {text-align:left;border: 1px solid black}
+.table2 thead th {color:balck;font-size:12px;text-align:center;background: #dedede 0 -1300px;padding: 10px 6px}
+.table2 thead th2 {color:#fff;font-size:12px;text-align:left;background: #71c637 0 -1300px;padding: 10px 6px}
+.table2 tbody th {color:black;font-size:12px;text-align:center;background: #dedede 0 -1400px;padding: 6px}

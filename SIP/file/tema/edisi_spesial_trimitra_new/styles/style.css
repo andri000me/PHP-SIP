@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+    padding: 0;
+	background:#fff;
+	
+}
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* wrapper */
+#wrapper{
+    width: auto;
+	background:#fff;
+}
+/* wrapper */
+.carousel-caption{
+	background:rgba(255,255,255,0.5);
+	margin-left:-170px;
+	margin-bottom:-30px;
+}
+.pager{
+    margin-top: 0px;
+}
+/* header */
+  #header{    
+    background:url(img/header.png) no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+	background-position:top;
+  }
+  #head2{ 
+    background:#5bc0de;
+	margin-right:15px;
+	margin-top:50px;
+	margin-bottom:5px;
+	border:none;
+	box-shadow:none;
+	border-radius:0px;
+  }
+  #head2  h4{
+	  margin-top:10px;
+	  margin-left:-20px;
+	  font-family:"verdana",monospace;
+	  color:#fff;
+	  font-size:25px;
+  }
+  #head2  img{
+	  margin:0;
+	  float:left;
+  }
+  .blank a{
+	  color:#fff;
+  }
+  .blank{
+	  background:transparent;
+	  margin-right:90px;
+  }
+  .blank :hover{
+	  background:none;
+  }
+  .heading{
+	margin-top:0;  
+  }
+  #pengumuman{
+	  margin-left:-15px;
+	  margin-right:15px;
+  }
+  #pengumuman h3{
+	  margin:0 13px 5px 0;
+  }
+  #pengumuman ul li{
+	  list-style:none;
+	  margin-left:-40px;
+	  color:#d9534f;
+  }
+/* header */
+
+/* content */
+/* content */
+        
+/* footer */
+#footer{
+    position: relative;
+    padding: 20px 0 10px 0;
+	margin-top:0px;
+    background:url(img/footer.png) no-repeat;
+	background-size:100%;
+	background-position:bottom;
+}                 
+#footer a{
+    color: #FFF;
+}
+/* footer */
+
+/*kelendar */
+#calendar {
+	width: 96%;
+	padding: 0;
+	margin: 2%;
+	border-left: 1px solid #A2ADBC;
+	font: normal 12px/20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #616B76;
+	text-align: center;
+	background-color: #fff;
+}
+#isi{
+	margin-right:-15px;
+	margin-left:-30px;
+}
+#menu{
+	margin-left:-30px;
+}
+#menu ul li{
+	font: bold 14px sans-serif;
+	color:#fff;	
+	text-align: justify;
+	text-decoration: none;
+    background: rgba(7,111,192, .7);
+	margin-bottom:5px;
+}
+#menu li a {
+	font: bold 14px sans-serif;
+	color: #fff;	
+	text-align: justify;
+	text-decoration: none;
+}
+#menu ul li :hover{
+	font: bold 14px sans-serif;
+	color:#fff;	
+	text-align: justify;
+	text-decoration: none;
+	background:#000;
+}
+a:hover{
+	text-decoration:none;
+	color:red;
+}
+caption.kalendar {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	background: #428bca;
+	color: #fff;	 
+	font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.navigasi{
+	padding:9px;
+	margin-bottom:5px;
+	background:#000;
+	color:#fff;
+	font-family:bold;
+}
+th.kalendar {
+	font: bold 11px/20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #616B76;
+	background: #D9E2E1;
+	border-right: 1px solid #A2ADBC;
+	border-bottom: 1px solid #A2ADBC;
+	border-top: 1px solid #A2ADBC;
+}
+
+.today, td.today a, td.today a:link, td.today a:visited {
+	color: #F6F4DA;
+	font-weight: bold;
+	background: #DF9496;
+}
+
+td.kalendar {
+	border-right: 1px solid #A2ADBC;
+	border-bottom: 1px solid #A2ADBC;
+	width: auto;
+	height: auto;
+	text-align: center;
+/*	background: url(../images/bg_calendar.jpg) no-repeat right bottom; */
+}
+
+td.kalendar a {
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+td.kalendar a:link, td a:visited {	
+	color: #608194;
+/*	background: url(../images/bg_calendar.jpg) no-repeat; */
+}
+
+td.kalendar a:hover, td a:active {
+	color: #6aa3ae;
+/*	background: url(../images/bg_calendar.jpg) no-repeat right top; */
+}
+
+/* Jendela Pop Up Kalendar */
+#popupkalendar {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+.windowkalendar {
+	width: 40%;
+	height: auto;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	text-align: center;
+	margin: 15% auto;
+}
+.windowkalendar h2 {
+	margin: 30px 0 0 0;
+}
+/* Button Close */
+.close-buttonkalendar {
+	width: 3.5%;
+	height: auto;
+	line-height: 23px;
+	background: #000;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;	
+}
+
+/* Memunculkan Jendela Pop Up*/
+#popupkalendar:target {
+	visibility: visible;
+}
+
+/*	popup */
+#popup {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		background: rgba(0,0,0,.7);
+		top: 0;
+		left: 0;
+		z-index: 10009;
+		visibility: hidden;
+	}
+
+	.window {
+		width: 30%;
+		height: 50%;
+		background: transparent;
+		border-radius: 10px;
+		position: relative;
+		padding: 1px;
+		text-align: justify;
+		margin: 10% auto;
+        padding: 0 20px 0 20px;
+        text-align: center;
+	}
+
+	.window h2 {
+		margin: 30px 0 0 0;
+	}
+
+	.close-button {
+		width: 6%;
+		height: 8.5%;
+		line-height: 23px;
+		display: block;
+		text-align: center;
+		color: #000;
+		text-decoration: none;
+		position: absolute;
+		top:45px;
+		right: 15px;
+	}
+.close {
+		width: 6%;
+		height: 8.5%;
+		line-height: 23px;
+		border: 1px solid #fff;
+		display: block;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		position: absolute;
+		top:0px;
+	}
+	#popup:target {
+		visibility: visible;
+	}
+
+/*	popup Gallery */
+#popupgallery {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		background: rgba(0,0,0,.7);
+		top: 0;
+		left: 0;
+		z-index: 10009;
+		visibility: hidden;
+	}
+
+	.windowgallery {
+		width: 50%;
+		height: 50%;
+		background: transparent;
+		border-radius: 10px;
+		position: relative;
+		padding: 1px;
+		text-align: justify;
+		margin: 15% auto;
+        padding: 0 20px 0 20px;
+        text-align: center;
+	}
+
+	.windowgallery h2 {
+		margin: 30px 0 0 0;
+	}
+
+	.close-buttongallery {
+		width: 8%;
+		height: 10.5%;
+		line-height: 23px;
+		display: block;
+		text-align: center;
+		color: red;
+		text-decoration: none;
+		position: absolute;
+		top:-25px;
+		right: 130px;
+	}
+.closegallery {
+		width: 8%;
+		height: 10.5%;
+		line-height: 23px;
+		border: 1px solid #fff;
+		display: block;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		position: absolute;
+		top:0px;
+	}
+	#popupgallery:target {
+		visibility: visible;
+	}
+	
+/* END RELOAD POP UP WEBSITE*/
+    #panel-heading{
+		background:#14BCE6;
+	}
+	#panel-heading h3{
+		text-align:center;
+		color:#fff;
+	}
+	
+	#masuk-elearning {
+		width: 7%;
+		text-align: center;
+		font-size: 0.9rem;
+		margin-top: px;
+		text-transform: uppercase;
+		color: black;
+		margin-left: 92%;
+	}
+		
+/*----------------------------------------responsive window popup*/
+@media screen and (max-width : 670px){
+    .window{
+        width:100%;
+        top: 90px;
+		margin:0;
+    }
+	.close-button {
+		width: 10%;
+	    height: 12%;
+		right:20px;
+		margin-top:5px;
+	}
+	#head2{
+		margin-left:0px;
+		width:100%;
+	}
+	#head2 img{
+		width:100%;
+	}
+	h3{
+		font-size:12px;
+	}
+}
+/*----------------------------------------responsive window popup*/
+
+/*----------------------------------------responsive window popup kalendar*/
+@media screen and (max-width : 670px){
+    .windowkalendar{
+		width: 70%;
+		height: 50%;
+		background: #fff;
+		border-radius: 10px;
+		position: relative;
+		padding: 10px;
+		text-align: center;
+		margin: 15% auto;
+    }
+	.close-buttonkalendar {
+		width: 8.5%;
+		height: 9.5%;
+		line-height: 23px;
+		background: #000;
+		border-radius: 50%;
+		border: 3px solid #fff;
+		display: block;
+		text-align: center;
+		color: #fff;
+		text-decoration: none;
+		position: absolute;
+		top: 3px;
+		right: 10px;	
+	}
+}
+/*----------------------------------------responsive window popup kalendar*/
+
+/*----------------------------------------responsive window popup galeri*/
+@media screen and (max-width : 670px){
+    .windowgallery{
+		width: 70%;
+		height: 70%;
+		background: transparent;
+		border-radius: 10px;
+		position: relative;
+		padding: 1px;
+		text-align: justify;
+		margin: 15% auto;
+        padding: 0 20px 0 20px;
+        text-align: center;
+    }
+	.close-buttongallery {
+		width: 8%;
+		height: 10.5%;
+		line-height: 23px;
+		display: block;
+		text-align: center;
+		color: red;
+		text-decoration: none;
+		position: absolute;
+		top:-25px;
+		right: 15px;
+	}
+}
+/*----------------------------------------responsive window popup galeri*/
+
+@media screen and (max-width : 670px){
+	#head2{
+		width:;
+		height:40px;
+	}
+	#head2 img{
+		width:50px;
+		margin-top:5px;
+	}
+	#head2 h4{
+		display:none;
+	}
+	#elerning{
+		margin-right:-40px;
+	}
+	#login{
+		display:normal;
+	}
+	#wrapp{
+		width:100%;
+	}
+	#isi{
+		margin-right:5px;
+	}
+}

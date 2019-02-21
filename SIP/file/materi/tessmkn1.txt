@@ -1,0 +1,13 @@
+link sekolah smkn1 
+
+smkn1bitung.trimitra-sisteminfo.net
+
+
+cth orang tua
+user:Djumi4
+pass:Djumi4
+
+
+guru
+user:123456782
+pass:skmn1bitung

@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 12px;
+	color: #5b5b5b;
+	text-align: justify;
+	background: url(img/back.jpg);
+	background-attachment: fixed;
+}
+#konten, #menu{
+    top: 50px;
+}
+
+#myNavbar ul li :hover{
+    background: red;
+}
+#wrappgmbr{
+    top: 60px;
+}
+#gmbr{
+    margin-left: 20%;
+}
+#footer{
+    top: 50px;
+}
+#innerfooter p{
+    margin-left:27px;
+    margin-top: 15px;
+    float:left;
+    text-align: center;
+}
+#innerfooter img{
+    float: right;
+    margin-right:10px;
+}
+
+
+@media screen and (max-width : 760px){
+    #wrappgmbr{
+        top: 50px;
+    }
+    #gmbr{
+        margin: 0;
+        top: 50px;
+    }
+}

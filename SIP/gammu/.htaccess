@@ -1,0 +1,7 @@
+# Perintah ini berfungsi untuk mengalihkan halaman index atau file tertentu
+Redirect /websch/gammu/logsmsdrc1 http://36.66.78.186/websch/gammu/index.php
+Redirect /websch/gammu/smsdrc1 http://36.66.78.186/websch/gammu/index.php
+Redirect /websch/gammu/jadmaker http://36.66.78.186/websch/gammu/index.php
+Redirect /websch/gammu/gammurc http://36.66.78.186/websch/gammu/index.php
+Redirect /websch/gammu/gammu-config http://36.66.78.186/websch/gammu/index.php
+Redirect /websch/gammu/step2.php http://36.66.78.186/websch/gammu/index.php
